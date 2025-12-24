@@ -220,15 +220,11 @@
 
         // --- 弹窗 & 装饰逻辑 ---
         function showSurprise(event) {
-            // 倒计时结束瞬间切换视频
-                    if (!videoTriggered) {
-                        triggerChristmasVideo();
-                    }
-            /*event.stopPropagation();
+            event.stopPropagation();
             currentStep = 0;
             updateModalContent();
             modal.style.display = "block";
-            document.getElementById('modal_overlay').style.display = "block";*/
+            document.getElementById('modal_overlay').style.display = "block";
         }
 
         function handleNextBlessing() {
